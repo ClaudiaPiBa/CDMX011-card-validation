@@ -12,3 +12,4 @@ En este proyecto me enfoque en la parte de agregar método de pago, donde el usu
 •	Empresa de viajes que presta el servicio de un vehículo con conductor para llegar a tu destino.
 •	Los principales usuarios de esta página son aquellas personas que buscan servicio de transporte (taxi) rápido y seguro.
 •	Se brinda al usuario una app, fácil de usar, rápida, sencilla y segura, donde el agregar los datos de su tarjeta sea una tarea mínima para poder realizar su viaje.
+"# CDMX011-Card-validation-"  
