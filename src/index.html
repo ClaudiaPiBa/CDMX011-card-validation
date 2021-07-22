@@ -5,10 +5,53 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <body>
+      <main>
+      <div id="contenedor">
+
+        <div id="tittle">
+        <h1 id="add">Introduce los datos de tu tarjeta</h1>
+        </div>
+
+          <div class="number">
+
+        <label for="inputNumber" class="labelNumber">Número de tarjeta</label><br>
+        <input type="text" id="inputNumber" class="sinborde" required placeholder="0000 0000 0000 0000" maxlength="19"><br>
+          </div>
+
+            <div class="name">
+        <input type="text" id="inputName" class="sinborde" placeholder="Nombre" required><br>
+            </div>
+
+              <div class="backgroundVencim">
+        <input type="text" id="inputVencim" class="sinborde" placeholder="Vencimiento" required><br>
+              </div>
+
+                <div class="backgroundCvv">
+        <input type="text" id="inputCvv" class="sinborde" placeholder="Cvv" required><br>
+                </div>
+
+                  <div class="button">
+         <br> <button type="submit" id="btn">Listo</button><br>
+
+
+                  </div>
+
+                    <div class="validate">
+                      <p id="message"></p>
+                    </div>
+
+      </div>
+
+
+    </main>
+    <footer>
+      <div id="priv">
+           <p> No compartas con nadie tu información bancaria, podrías ser víctima de una estafa.</p>
+           <p>Revisa aquí nuestra política de privacidad</p>
+           <a href="url">TERMINOS DEL SERVICIO Y POLITICA DE PRIVACIDAD</a>
+       </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
